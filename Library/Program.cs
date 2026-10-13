@@ -1,5 +1,12 @@
 using Library;
 
+List<Book> books = new List<Book>();
+List<Member> members = new List<Member>();
+
+books.Add(new Book("C for beginners", "Bill Gates", "12345678"));
+books.Add(new Book("Ultimate C#", "Microsoft", "55667778"));
+
+
 Book book = new Book();
 // This information is for one book in our library
 book.Title = "C# for beginners";
